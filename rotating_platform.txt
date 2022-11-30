@@ -51,8 +51,8 @@ if(automat==1)
 else
 {
   ruch();
-}      
-}
+}}      
+
      
 
 if(odczyt>5 & odczyt <50)
@@ -70,7 +70,6 @@ if(odczyt>5 & odczyt <50)
 if(odczyt>0 & odczyt <6)
 {
   switch (odczyt) {
-    
   case 1:
   przerwa = 2000;
   lcd.clear();
